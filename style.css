@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f2f2f2;
+    margin: 5px;
+}
+.nav-img{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container{
+    display: flex;
+    margin: 0px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+/* .four-cards{
+    display: inline-block;
+    flex-direction: column;
+} */
+/* .card-seprator{
+    display: flex;
+    flex-direction: row;
+    
+} */
+.content{
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin: 40px;
+    padding: 0px;
+    background: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: .4s;
+    background: #fff;
+    
+}
+.content img{
+    max-width: 100%;
+    vertical-align: middle;
+
+    height: 250px;
+    width: 250px;
+    margin-top: 0%;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.fab-page{
+    color: #000;
+    text-decoration: none;
+    
+    display: flex;
+    padding: 0 10px;
+    font-weight: 500;
+}
+
+.content p{
+    max-width: 100%;
+    height: auto;
+    text-align: left;
+    font-size: 18px;
+    color: #000;
+    padding: 5px;
+    margin-bottom: 15px;
+    
+}
+
+button{
+    text-align: center;
+    font-size: 0.88rem;
+    
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: auto;
+    max-width: 100%;
+    position: relative;
+    bottom: 0;
+    
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.buy1{
+    background: teal;
+}
+.buy1:hover{
+    background: #000;
+}
+.buy1 a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer{
+    height: auto;
+    width: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+   
+
+}
+.footer img{
+    height: auto;
+    width: 100%;
+    max-width: 900px;
+    
+}
+
+
+@media screen and (max-width: 476px){
+    .content{
+        margin: 5px;
+    }
+
+    .content img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .container{
+      flex-direction: column;
+      margin: 0px;
+      padding: 0px;
+    }
+    
+    
+    .card-seprator{
+        display: flex;
+        flex-direction: row;
+    }
+    .footer{
+        height: auto;
+        width: auto;
+        flex-wrap: wrap;
+    }
+
+  }
